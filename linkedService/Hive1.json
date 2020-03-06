@@ -1,0 +1,25 @@
+{
+	"name": "Hive1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Hive",
+		"typeProperties": {
+			"host": "chgspark36.azurehdinsight.net",
+			"port": 443,
+			"serverType": "HiveThriftServer",
+			"thriftTransportProtocol": "HTTP",
+			"authenticationType": "WindowsAzureHDInsightService",
+			"serviceDiscoveryMode": false,
+			"zooKeeperNameSpace": "hiveserver2",
+			"useNativeQuery": false,
+			"username": "admin",
+			"enableSsl": false,
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyYTNhYmJjOC1iYWM5LTRkNGEtOTMxZi1hNTI0YWUwYjhmODciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-localPC",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

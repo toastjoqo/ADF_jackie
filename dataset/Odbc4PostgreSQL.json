@@ -1,0 +1,16 @@
+{
+	"name": "Odbc4PostgreSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Odbc4postgreSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "\"public\".\"account\""
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

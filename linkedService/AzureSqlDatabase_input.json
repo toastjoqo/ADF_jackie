@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDatabase_input",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=jksql.database.windows.net;initial catalog=Adventureworks;user id=jackie",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MzhjZTk2Mi00ZGFiLTQzZmEtODliZS0zYmZiMGM2YWQ2NTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-vmas",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

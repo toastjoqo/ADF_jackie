@@ -1,0 +1,39 @@
+{
+	"name": "OutputDataset_hmk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Destination_BlobStorage_hmk",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"structure": [
+			{
+				"name": "user_id",
+				"type": "String"
+			},
+			{
+				"name": "username",
+				"type": "String"
+			},
+			{
+				"name": "password",
+				"type": "String"
+			},
+			{
+				"name": "email",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"treatEmptyAsNull": true
+			},
+			"fileName": "[dbo].[account]",
+			"folderPath": "output"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

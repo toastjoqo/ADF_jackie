@@ -1,0 +1,6 @@
+{
+	"name": "SHIR-localPC",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

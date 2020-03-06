@@ -1,0 +1,34 @@
+{
+	"name": "AzureBlobinputfolder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"structure": [
+			{
+				"name": "Prop_0",
+				"type": "String"
+			},
+			{
+				"name": "Prop_1",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"nullValue": "\\N",
+				"encodingName": null,
+				"treatEmptyAsNull": true,
+				"skipLineCount": 1,
+				"firstRowAsHeader": false
+			},
+			"folderPath": "input/CSV"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

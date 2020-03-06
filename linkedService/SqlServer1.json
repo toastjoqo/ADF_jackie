@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=JIAQHU681VM;initial catalog=AdventureWorks2017",
+			"userName": "JIAQHU681VM\\Administrator",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1NWJhZDA5YS0zMDA2LTRiNTYtYjg0Yi05NmMzOWY0YTg3NjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-vmas",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

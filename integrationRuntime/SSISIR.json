@@ -1,0 +1,31 @@
+{
+	"name": "SSISIR",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "Southeast Asia",
+				"nodeSize": "Standard_D2_v3",
+				"numberOfNodes": 1,
+				"maxParallelExecutionsPerNode": 2,
+				"vNetProperties": {
+					"vNetId": "/subscriptions/d1e34e00-3965-4018-96a9-169755063128/resourceGroups/AzureDataFactory/providers/Microsoft.Network/virtualNetworks/jackieADF",
+					"subnet": "ssistest"
+				}
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "jksql.database.windows.net",
+					"catalogAdminUserName": "jackie",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"catalogPricingTier": "Basic"
+				},
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"name": "DocumentDbCollection1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DocumentDbCollection",
+		"structure": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			},
+			{
+				"name": "Parents"
+			},
+			{
+				"name": "Children"
+			},
+			{
+				"name": "Address.State",
+				"type": "String"
+			},
+			{
+				"name": "Address.County",
+				"type": "String"
+			},
+			{
+				"name": "Address.City",
+				"type": "String"
+			},
+			{
+				"name": "IsRegistered",
+				"type": "Boolean"
+			},
+			{
+				"name": "_rid",
+				"type": "String"
+			},
+			{
+				"name": "_self",
+				"type": "String"
+			},
+			{
+				"name": "_etag",
+				"type": "String"
+			},
+			{
+				"name": "_attachments",
+				"type": "String"
+			},
+			{
+				"name": "_ts",
+				"type": "Int64"
+			}
+		],
+		"typeProperties": {
+			"collectionName": "FamilyCollection"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

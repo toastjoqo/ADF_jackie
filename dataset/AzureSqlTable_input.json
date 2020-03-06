@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable_input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_input",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "SalesOrderDetaildatetime2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

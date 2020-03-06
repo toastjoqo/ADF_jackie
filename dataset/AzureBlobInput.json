@@ -1,0 +1,53 @@
+{
+	"name": "AzureBlobInput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"structure": [
+			{
+				"name": "SalesOrderID",
+				"type": "Int32"
+			},
+			{
+				"name": "SalesOrderDetailID",
+				"type": "Int32"
+			},
+			{
+				"name": "OrderQty",
+				"type": "Int32"
+			},
+			{
+				"name": "ProductID",
+				"type": "Int32"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "Decimal"
+			},
+			{
+				"name": "UnitPriceDiscount",
+				"type": "Decimal"
+			},
+			{
+				"name": "rowguid",
+				"type": "String"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "DateTime"
+			}
+		],
+		"typeProperties": {
+			"format": {
+				"type": "ParquetFormat"
+			},
+			"fileName": "jsonsample.json",
+			"folderPath": "input/JSON"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

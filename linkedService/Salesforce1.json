@@ -1,0 +1,13 @@
+{
+	"name": "Salesforce1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Salesforce",
+		"typeProperties": {
+			"environmentUrl": "https://test.salesforce.com",
+			"username": "veracityplatformanalytics@dnvgl.com.uatoebs",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkpLQURGVjJfZTE2NzZlYTctNGNkNC00Njg3LWFiZjktZWNmNjM5YjQxZGU5Ig0KfQ=="
+		}
+	}
+}
