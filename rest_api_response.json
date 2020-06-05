@@ -1,0 +1,108 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://ap-aus-preprod-platform-01.azurewebsites.net/api/aucompliance/staging/students?skip=0&take=1",
+            "method": "GET"
+        },
+        {
+            "rel": "first",
+            "href": "https://ap-aus-preprod-platform-01.azurewebsites.net/api/aucompliance/staging/students?skip=0&take=1",
+            "method": "GET"
+        },
+        {
+            "rel": "next",
+            "href": "https://ap-aus-preprod-platform-01.azurewebsites.net/api/aucompliance/staging/students?skip=1&take=1",
+            "method": "GET"
+        },
+        {
+            "rel": "last",
+            "href": "https://ap-aus-preprod-platform-01.azurewebsites.net/api/aucompliance/staging/students?skip=173017&take=1",
+            "method": "GET"
+        }
+    ],
+    "collection": [
+        {
+            "uid100MasterStudentsResKey": null,
+            "e313StudentIdentificationCode": "10000166",
+            "e314DateOfBirth": "1981-02-20T00:00:00Z",
+            "e402StudentFamilyName": "xxx",
+            "e403StudentGivenNameFirst": "xxx",
+            "e404StudentGivenNameOthers": "9999",
+            "e416StudentTfn": null,
+            "e488Chessn": null,
+            "e584Usi": null,
+            "e319TermResidencePostcode": "6051",
+            "e320ResidentialAddressPostcode": null,
+            "e410ResidentialAddressLine1": "xxx",
+            "e469ResidentialAddressSuburb": null,
+            "e470ResidentialAddressState": null,
+            "e658ResidentialAddressCountryCode": "9999",
+            "e661TermResidenceCountryCode": "1101",
+            "e315GenderCode": "F",
+            "e316AtsiCode": "2",
+            "e346CountryOfBirthCode": "0",
+            "e347ArrivalInAustraliaYear": "2008",
+            "e348LanguageSpokenAtHomeCode": "0001",
+            "e572YearLeftSchool": "1998",
+            "e573HighestEducationParent1": "99",
+            "e574HighestEducationParent2": "99",
+            "e612LevelLeftSchool": "99",
+            "citizenshipsStaging": [
+                {
+                    "e358CitizenResidentCode": "4",
+                    "e609StudentCitizenshipsEffectiveFromDate": "2010-07-29T00:00:00Z",
+                    "e610StudentCitizenshipsEffectiveToDate": null,
+                    "uid10StudentCitizenshipsResKey": null,
+                    "uid100MasterStudentsResKey": null,
+                    "id": 15322,
+                    "approved": false,
+                    "createdBy": "Anonymous",
+                    "createdOn": "2020-03-23T05:26:30.3618977Z",
+                    "govAction": 1,
+                    "govError": [],
+                    "govResponse": "None",
+                    "errorCategory": 0,
+                    "onGov": false,
+                    "sentToGov": false,
+                    "sentToGovDate": null,
+                    "smsRef": "10000166.2010-07-29",
+                    "stagingStatus": 1,
+                    "tenantId": "ecu",
+                    "updatedBy": null,
+                    "updatedOn": null,
+                    "providerType": "HEP",
+                    "reportingStatus": 500,
+                    "groupReportingStatus": 0,
+                    "_links": []
+                }
+            ],
+            "studentDisabilitiesStaging": [],
+            "studentCommonwealthScholarshipsStaging": [],
+            "id": 16996,
+            "approved": false,
+            "createdBy": "Anonymous",
+            "createdOn": "2020-03-23T05:26:30.3618977Z",
+            "govAction": 1,
+            "govError": [],
+            "govResponse": "None",
+            "errorCategory": 0,
+            "onGov": false,
+            "sentToGov": false,
+            "sentToGovDate": null,
+            "smsRef": "10000166",
+            "stagingStatus": 1,
+            "tenantId": "ecu",
+            "updatedBy": "Anonymous",
+            "updatedOn": "2020-04-03T08:52:31.2724778Z",
+            "providerType": "HEP",
+            "reportingStatus": 500,
+            "groupReportingStatus": 500,
+            "_links": []
+        }
+    ],
+    "requested": 1,
+    "count": 1,
+    "skip": 0,
+    "total": 173018
+}
